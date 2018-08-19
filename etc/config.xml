@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author austris
+ * @copyright Copyright (c) 2018
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <general>
+            <magic_snowflakes>
+                <enabled>0</enabled>
+                <color>#123</color>
+                <count>100</count>
+                <minOpacity>0.1</minOpacity>
+                <maxOpacity>0.95</maxOpacity>
+                <minSize>20</minSize>
+                <maxSize>50</maxSize>
+                <rotation>1</rotation>
+                <speed>2</speed>
+                <wind>0</wind>
+                <width>0</width>
+                <height>0</height>
+                <zIndex>100</zIndex>
+            </magic_snowflakes>
+        </general>
+    </default>
+</config>

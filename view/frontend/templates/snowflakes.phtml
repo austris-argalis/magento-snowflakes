@@ -1,0 +1,19 @@
+<?php
+/**
+ * @author austris
+ * @copyright Copyright (c) 2018
+ */
+
+/**
+ * @var $block \Davay\Snowflakes\Block\Snowflakes
+ */
+?>
+<?php if ($block->snowflakesEnabled()): ?>
+    <script type="text/x-magento-init">
+    {
+        "*": {
+            "Davay_Snowflakes/js/snowflakes": <?= $block->getJsConfiguration() ?>
+        }
+    }
+    </script>
+<?php endif ?>
